@@ -5,7 +5,8 @@ public class Main {
         System.out.println("Sum of all integers in array is: " + getSum(inputArray));
         System.out.println("Product of all integers in array is: " + getProduct(inputArray));
     }
-    
+
+    // This method gets the sum of all integers in array
     public static int getSum(int[] input) {
         int result = 0;
         for (int i : input) {
